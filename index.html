@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Toto</title>
+    <link rel="stylesheet" href="./main.css"/>
+
+</head>
+<body>
+
+  <!-- Title -->
+  <h1>Bonjour monde !!</h1>
+
+  <!-- Button -->
+  <div class="form">
+    <input type='text' id='saisie' />
+    <input type='button' id='button' value='Clic-moi !' />
+  </div>
+
+  <!-- Tableau -->
+  <div class="form2">
+    <table id="table">
+      <tr><th>Compagnie</th><th>Contact</th><th>Pays</th><th>Suppr.</th></tr>
+      <tr>
+        <td>Bosh</td><td>Maria Anders</td><td>Germany</td>
+        <td><button class="supp">-</button></td>
+      </tr>
+      <tr>
+        <td>Kung Fu</td><td>Francisco Chang</td><td>China</td>
+        <td><button class="supp">-</button></td>
+      </tr>
+    </table>
+    <button id="ajoutLigne">Ajouter une ligne</button>
+  </div>
+
+  <!-- Script -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="./random.js"></script>
+  <script src="./index.js"></script>
+</body>
+</html>
